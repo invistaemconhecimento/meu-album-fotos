@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Álbum de Fotos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-camera"></i> Meu Álbum de Fotos</h1>
+        <p>Um álbum digital hospedado no GitHub</p>
+    </header>
+
+    <main>
+        <section id="lista-albuns">
+            <h2>Álbuns</h2>
+            <div class="albuns-container" id="albuns-container">
+                <!-- Álbuns serão carregados aqui via JavaScript -->
+            </div>
+        </section>
+
+        <section id="visualizador-album" style="display: none;">
+            <div class="album-header">
+                <button id="voltar-lista" class="btn-voltar">
+                    <i class="fas fa-arrow-left"></i> Voltar
+                </button>
+                <h2 id="album-titulo"></h2>
+                <p id="album-descricao"></p>
+            </div>
+            
+            <div class="fotos-container" id="fotos-container">
+                <!-- Fotos do álbum serão carregadas aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Álbum de fotos hospedado no GitHub • Atualizado em <span id="data-atual"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

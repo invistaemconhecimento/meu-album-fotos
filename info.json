@@ -1,0 +1,19 @@
+{
+  "album_id": 1,
+  "titulo": "Férias 2024",
+  "descricao": "Fotos das minhas férias na praia",
+  "fotos": [
+    {
+      "arquivo": "foto1.jpg",
+      "legenda": "Primeiro dia na praia",
+      "data": "2024-07-15",
+      "local": "Praia do Rosa, SC"
+    },
+    {
+      "arquivo": "foto2.jpg",
+      "legenda": "Pôr do sol incrível",
+      "data": "2024-07-16",
+      "local": "Praia do Rosa, SC"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "albuns": [
+    {
+      "id": 1,
+      "nome": "Férias 2024",
+      "descricao": "Fotos das minhas férias na praia",
+      "capa": "fotos/album1/foto1.jpg",
+      "data": "2024-07-15",
+      "quantidade_fotos": 12
+    },
+    {
+      "id": 2,
+      "nome": "Aniversário",
+      "descricao": "Celebração do meu aniversário",
+      "capa": "fotos/album2/foto1.jpg",
+      "data": "2024-06-20",
+      "quantidade_fotos": 8
+    }
+  ]
+}
